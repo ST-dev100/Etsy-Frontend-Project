@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="sm:col-span-1 col-span-5">
               <h3 className="font-semibold mb-4 flex justify-between items-center">
                 About
-                <button className="sm:hidden ml-96" onClick={toggleAbout}>
+                <button className="sm:hidden " onClick={toggleAbout}>
                   {isAboutOpen ? <FaChevronUp /> : <FaChevronDown />}
                 </button>
               </h3>
@@ -85,7 +85,7 @@ const Footer = () => {
             <div className="sm:col-span-1 col-span-5 ">
               <h3 className="font-semibold mb-4 flex justify-between items-center ">
                 Help
-                <button className="sm:hidden ml-96" onClick={toggleHelp}>
+                <button className="sm:hidden " onClick={toggleHelp}>
                   {isHelpOpen ? <FaChevronUp /> : <FaChevronDown />}
                 </button>
               </h3>
